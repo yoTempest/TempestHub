@@ -68,6 +68,11 @@ PlayerSection:NewSlider("JumpPower", "Make you go high", 500, 50, function(s) --
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
+PlayerSection:NewButton("Rejoin", "rejoin the same server u where in", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/n8nzV2Fp"))()
+      print("Clicked")
+end)
+
 PlayerSection:NewButton("Server Hop", "join a new Server of the same Game", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/n8nzV2Fp"))()
       print("Clicked")
@@ -78,11 +83,6 @@ loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
       print("Clicked")
 end)
 
-PlayerSection:NewButton("Rejoin", "rejoin the same server u where in", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/n8nzV2Fp"))()
-      print("Clicked")
-end)
-
 PlayerSection:NewButton("ESP", "makes u see anyone", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/UZMw9gX7"))()
       print("Clicked")
@@ -90,11 +90,6 @@ end)
 
 PlayerSection:NewButton("Noclip with toggle", "walk inside everything", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/JBpVFq7M"))()
-      print("Clicked")
-end)
-
-PlayerSection:NewButton("Auto Clicker (use V key to toggle)", "autoclick by pressing v on keyboard", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/R6JeYyJd"))()
       print("Clicked")
 end)
 
