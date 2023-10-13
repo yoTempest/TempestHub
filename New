@@ -121,8 +121,8 @@ loadstring(game:HttpGet("https://pastebin.com/raw/0MLPL32f"))()
       print("Clicked")
 end)
 
-Section:NewButton("BETTER ROBLOX", "OP!!!", function()
-loadstring(game:HttpGet("https://eternityhub.xyz/BetterRoblox/Loader"))()
+Section:NewButton("FPS Unlocker", "Gives u more FPS", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/azcmHKi3"))()
       print("Clicked")
 end)
 
