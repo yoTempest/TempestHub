@@ -35,12 +35,12 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
       print("Clicked")
 end)
 
-Section:NewButton("Blox Fruits 2 No Key Adel Hub", "everything for bloxfruits", function()
+Section:NewButton("Blox Fruits 2 Adel Hub (No Key)", "everything for bloxfruits", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))() 
       print("Clicked")
 end)
 
-Section:NewButton("Haze Piece (key)", "Auto Farm, Auto Race etc.", function()
+Section:NewButton("Haze Piece (Key)", "Auto Farm, Auto Race etc.", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/mo061/MysticHub/main/README.md"))()
       print("Clicked")
 end)
