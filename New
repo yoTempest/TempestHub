@@ -40,6 +40,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
       print("Clicked")
 end)
 
+Section:NewButton("Haze Piece (key)", "Auto Farm, Auto Race etc.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mo061/MysticHub/main/README.md"))()
+      print("Clicked")
+end)
+
 Section:NewButton("Bedwars Script", "Vape Script = OP", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))() 
       print("Clicked")
